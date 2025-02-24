@@ -27,5 +27,10 @@ namespace test_001_1
             button1.Text = "what!";
             button2.Text = "what!";
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Text = "一個bug是bug，但一群bug能work";
+        }
     }
 }
